@@ -154,12 +154,7 @@ h4{
     width: 100%;
 }
 
-.nosotros{
-    margin: 0px;
-    justify-content: center;
-    padding: 0px;
-    gap: 30px;
-}
+
 
 .box-n{
     display: flex;
@@ -200,14 +195,6 @@ h4{
     gap: 100px;
     background-color: whitesmoke;
 }
-
-
-
-
-
-
-
-
 
 /*PÁGINA PRODUCTOS*/
 .barra-info{
