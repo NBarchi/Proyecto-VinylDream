@@ -156,43 +156,55 @@ h4{
 
 .box-n{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
-    height: 400px;
+    justify-content: center;
+    height: auto;
+    padding: 30px;
     gap: 70px;
 }
 
 .box-t{
-    padding-top: 100px; 
+    height: 50px;
+    padding-top: 50px;
 }
 
-.box-parrafo{
-    height: 300px;
-    width: 400px;
-    padding-top: 30px;
-    
+.box-parrafo{   
+    width: 450px;
 }
+
 
 .box-n1{
     display: flex;
-    width: 100%;
-    height: 400px;
+    padding: 100px;
     padding-left: 300px;
-    padding-top: 100px;
     gap: 20px;
     background-color: #FFE43D;
+}
+
+@media (max-width: 1000px){
+    .box-n1{
+        padding-left: 120px;
+    }
 }
 
 
 .box-n2{
     display: flex;
-    width: 100%;
-    height: 400px;
-    padding-left: 300px;
-    padding-top: 100px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 70px;
     gap: 100px;
     background-color: whitesmoke;
 }
+
+@media (max-width: 1000px){
+    .box-n2{
+        gap: 20px;
+    }
+}
+
 
 /*PÁGINA PRODUCTOS*/
 .barra-info{
@@ -219,30 +231,42 @@ h4{
 }
 
 .productos{
-    margin: 50px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: center;
     column-gap: 20px;
-    padding: 30px;
-    ;
+    padding: 100px;
 }
 
 .lista-producto{
     display: flex;
     margin: 10px;
-    flex-wrap: wrap;
     gap: 40px;
 }   
 
 
 .descripcion-btn{
     display: flex;
-    width: 950px;
     gap: 40px;
     margin-top: 50px;
     background-color: #F8F9F9 ;
     padding: 20px;
+}
+
+@media (max-width: 1000px){
+    .descripcion-btn{
+        flex-wrap: wrap;
+        width: 400px;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 900px){
+    .lista-producto{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
 
 
