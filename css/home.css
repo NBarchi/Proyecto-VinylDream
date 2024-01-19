@@ -1,8 +1,9 @@
 *{
     margin: 0 ;
     padding: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box;    
 }
+
 
 /*BARRA DE NAVEGACION*/
 
@@ -62,7 +63,7 @@ h4{
 
 .box:hover{
     translate: 0 -10px;
-    box-shadow: 0 10 5px rgba(0, 0, 0, 0.228);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.228);
     cursor: pointer;
 }
 
@@ -164,7 +165,7 @@ h4{
     flex-wrap: wrap;
     justify-content: center;
     height: auto;
-    padding: 30px;
+    padding: 100px;
     gap: 70px;
 }
 
@@ -183,7 +184,7 @@ h4{
     padding: 100px;
     padding-left: 300px;
     gap: 20px;
-    background-color: #FFE43D;
+    background-color:  #f2ebdf;
 }
 
 @media (max-width: 1000px){
@@ -206,6 +207,10 @@ h4{
 @media (max-width: 1000px){
     .box-n2{
         gap: 20px;
+    }
+
+    .box-n{
+        padding: 30px;
     }
 }
 
@@ -278,7 +283,7 @@ h4{
 
 /*PAGINA LOGIN*/
 
-.login{
+.form{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -296,7 +301,7 @@ h4{
 .btn-ingresar{
     width: 350px;
     height: 55px;
-    background-color: #b50016;
+    background-color: #46a595;
     border: 1px solid rgb(211, 206, 206);
     color: #F8F9F9;
     font-size: 20px;
@@ -305,6 +310,11 @@ h4{
 
 .login p{
     padding-top: 10px;
+}
+
+.hide{
+    position: absolute;
+    transform: translateY(-2000px);  
 }
 
 
