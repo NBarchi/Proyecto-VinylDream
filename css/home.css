@@ -22,6 +22,10 @@
     color: #333;
 }
 
+.navbar-icon a:hover{
+    color: #64c630;
+}
+
 h4{
     text-align: center;
     padding-top: 30px;
@@ -69,7 +73,7 @@ h4{
 
 .box-text{
     text-align: center;
-    padding-bottom:  20px;
+    padding-bottom:  5px;
 }
 
 .jazz{
@@ -92,6 +96,21 @@ h4{
     gap: 30px;
     flex-wrap: wrap;
 }
+
+.btn-o{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #64c630;
+    color: white;
+    font-family: Anton, sans-serif;
+    border: none;
+}
+
+.btn-o:hover{
+    background-color: black  ;
+}
+
 
 .frase{
     margin: 100px;
@@ -259,6 +278,21 @@ h4{
     margin-top: 50px;
     background-color: #F8F9F9 ;
     padding: 20px;
+}
+
+.btn-a{
+    width: 100px;
+    height: 40px;
+    background-color: #64c630;
+    color: white;
+    font-family: Anton, sans-serif;
+    border: none;
+    
+}
+
+.btn-a:hover{
+    background-color: black  ;
+    
 }
 
 @media (max-width: 1000px){
