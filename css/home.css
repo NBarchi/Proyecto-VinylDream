@@ -57,10 +57,12 @@ h4{
     align-content: center;
     border-radius: 2px;
     color: black;
+    transition: 200ms;
 }
 
 .box:hover{
-    border: 2px ridge white;
+    translate: 0 -10px;
+    box-shadow: 0 10 5px rgba(0, 0, 0, 0.228);
     cursor: pointer;
 }
 
@@ -246,7 +248,6 @@ h4{
     gap: 40px;
 }   
 
-
 .descripcion-btn{
     display: flex;
     gap: 40px;
@@ -274,6 +275,37 @@ h4{
     }
 }
 
+
+/*PAGINA LOGIN*/
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.datos{
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid rgb(211, 206, 206);
+    border-radius: 3px;
+}
+
+.btn-ingresar{
+    width: 350px;
+    height: 55px;
+    background-color: #b50016;
+    border: 1px solid rgb(211, 206, 206);
+    color: #F8F9F9;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.login p{
+    padding-top: 10px;
+}
 
 
 
