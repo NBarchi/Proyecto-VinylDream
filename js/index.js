@@ -3,12 +3,12 @@ const btnSingUp=document.getElementById("sing-up");
 const formRegistro=document.querySelector(".register");
 const formLogin=document.querySelector(".login")
 
-btnSingIn.addEventListener("click", e =>{
+btnSingIn.addEventListener("click",()=>{
     formLogin.classList.add("hide");
     formRegistro.classList.remove("hide");
 })
 
-btnSingUp.addEventListener("click", e =>{
+btnSingUp.addEventListener("click", () =>{
     formRegistro.classList.add("hide");
     formLogin.classList.remove("hide");
 })
@@ -20,8 +20,6 @@ let email=document.getElementById("idEmail");
 let contra=document.getElementById("contra");
 
 let validacion=()=>{
-    console.log('Enviando Formulario...')
-
     if(nombre.value === null || nombre.value ===''){
         alert("Ingrese su nombre")
 
@@ -31,5 +29,4 @@ let validacion=()=>{
     }else if(contra.value === null || contra.value ===''){
         alert("Ingrese su contraseña")
     }
-
 }
